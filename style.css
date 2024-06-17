@@ -1,3 +1,12 @@
-h1 {
-    color: red;
+body {
+    height: 100vh;
+    display: flex;
+    border: solid 2px black;
+}
+
+.left-side {
+    background: url('./img/halie-west-25xggax4bSA-unsplash.jpg') no-repeat;
+    background-size: 100% 100%;
+    flex-basis: 25%;
+    min-width: 400px;
 }
