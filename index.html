@@ -10,10 +10,66 @@
 
 <body>
     <div class="left-side">
-        <img class='odin' src='./img/odin-lined.png' alt="Odin Logo">
+        <div class="odin-banner">
+            <img class='odin-logo' src='./img/odin-lined.png' alt="Odin Logo">
+            <p class="odin-text">ODIN</p>
+        </div>
+        <footer>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+        </footer>
     </div>
     <div class="right-side">
-        <h1>Hello</h1>
+        <div class="header">
+            <p>This is not a real online service! You know you need something
+                like this in our life to help you realize your deepest dreams. <br>
+                Sign up <em>now</em> to get started. <br> <br>
+                You <em>know</em> you want to.
+            </p>
+        </div>
+
+
+        <div class="form">
+            <form action="">
+                <h2>Let's do this!</h2>
+                <div class="row-one">
+                    <div class="first-name">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id='first_name' name="first_name" placeholder="Thor">
+                    </div>
+                    <div class="last-name">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id='last_name' name="last_name" placeholder="Odinson">
+                    </div>
+                </div>
+                <div class="row-two">
+                    <div class="email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id='email' name="email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="number" id='phone_number' name="phone_number">
+                    </div>
+                </div>
+                <div class="row-three">
+                    <div class="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id='password' name="password" required>
+                        <span></span>
+                    </div>
+                    <div class="confirm">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id='confirm' name="confirm" required>
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="submit">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
 </body>
 
